@@ -6,7 +6,7 @@ skip_notify = true
 
 # Disable specific steps - same options as the command line flag
 #disable = ["system", "emacs"]
-disable = ["conda", "containers", "flutter", "bin", "restarts", "bun"]
+disable = ["conda", "containers", "flutter", "bin", "restarts", "bun", "chezmoi"]
 
 no_self_update = true
 
