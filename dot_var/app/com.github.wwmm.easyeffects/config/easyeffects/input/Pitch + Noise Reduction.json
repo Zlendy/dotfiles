@@ -1,0 +1,32 @@
+{
+    "input": {
+        "blocklist": [],
+        "pitch#0": {
+            "anti-alias": false,
+            "bypass": false,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "overlap-length": 8,
+            "quick-seek": false,
+            "rate-difference": 0.0,
+            "seek-window": 15,
+            "semitones": 5.0,
+            "sequence-length": 40,
+            "tempo-difference": 0.0
+        },
+        "plugins_order": [
+            "rnnoise#0",
+            "pitch#0"
+        ],
+        "rnnoise#0": {
+            "bypass": false,
+            "enable-vad": true,
+            "input-gain": 5.0,
+            "model-path": "",
+            "output-gain": 0.0,
+            "release": 20.0,
+            "vad-thres": 50.0,
+            "wet": 0.0
+        }
+    }
+}
