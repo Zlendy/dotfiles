@@ -1,0 +1,22 @@
+[init]
+	defaultBranch = main
+[user]
+	email = zlendy@proton.me
+	name = Zlendy
+	signingkey = AE1606DF2A98D86A8B4517F7A9B6E750D846FC91
+[push]
+	autoSetupRemote = true
+[alias]
+	pr = "!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
